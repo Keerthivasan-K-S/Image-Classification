@@ -106,17 +106,17 @@ def train_model(model, train_loader, num_epochs=3):
 
 ### Confusion Matrix
 
-<img width="722" height="622" alt="image" src="https://github.com/user-attachments/assets/9e3ef011-d3f8-41a9-bf80-37f317cf38cf" />
+<img width="1484" height="868" alt="Screenshot 2026-02-15 224219" src="https://github.com/user-attachments/assets/b28ebb64-9bec-4c74-b6fb-84102edb5bdb" />
 
 
 ### Classification Report
 
-<img width="600" height="342" alt="image" src="https://github.com/user-attachments/assets/973b5e81-a4b2-4f50-8e21-3b5138d08e77" />
+<img width="924" height="435" alt="Screenshot 2026-02-15 224229" src="https://github.com/user-attachments/assets/818d8395-421d-431f-9607-252cd28cb93c" />
 
 
 ### New Sample Data Prediction
 
-<img width="594" height="495" alt="image" src="https://github.com/user-attachments/assets/4783536c-2f3a-440d-bf1b-a84a11916662" />
+<img width="916" height="624" alt="Screenshot 2026-02-15 224242" src="https://github.com/user-attachments/assets/a19ad1f2-0b9a-4ccf-93e4-c34926e561c2" />
  
 ## RESULT
 A CNN was successfully implemented for handwritten digit classification using MNIST. The model achieved high accuracy (~98%) and correctly classified new unseen digit samples.
