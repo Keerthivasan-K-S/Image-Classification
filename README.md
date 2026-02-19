@@ -54,8 +54,6 @@ class CNNClassifier(nn.Module):
     self.fc1 = nn.Linear(128 * 3 * 3, 128) # Adjusted input features for fc1
     self.fc2 = nn.Linear(128, 64)
     self.fc3 = nn.Linear(64, 10)
-\
-
 
   def forward(self, x):
     x = self.pool(torch.relu(self.conv1(x)))
@@ -66,9 +64,6 @@ class CNNClassifier(nn.Module):
     x = torch.relu(self.fc2(x))
     x = self.fc3(x)
     return x
-
-
-
 ```
 
 ```python
@@ -95,27 +90,19 @@ def train_model(model, train_loader, num_epochs=3):
         print('Name: Keerthivasan K S ')
         print('Register Number:212224230120')
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
-
 ```
 
 ## OUTPUT
 ### Training Loss per Epoch
-
-<img width="441" height="163" alt="image" src="https://github.com/user-attachments/assets/1998eda2-a163-4eff-b085-2bb16bf8ffef" />
-
+<img width="552" height="199" alt="image" src="https://github.com/user-attachments/assets/a16ed7e4-b322-40a8-ba91-75edddac5b3e" />
 
 ### Confusion Matrix
-
 <img width="1484" height="868" alt="Screenshot 2026-02-15 224219" src="https://github.com/user-attachments/assets/b28ebb64-9bec-4c74-b6fb-84102edb5bdb" />
 
-
 ### Classification Report
-
 <img width="924" height="435" alt="Screenshot 2026-02-15 224229" src="https://github.com/user-attachments/assets/818d8395-421d-431f-9607-252cd28cb93c" />
 
-
 ### New Sample Data Prediction
-
 <img width="916" height="624" alt="Screenshot 2026-02-15 224242" src="https://github.com/user-attachments/assets/a19ad1f2-0b9a-4ccf-93e4-c34926e561c2" />
  
 ## RESULT
