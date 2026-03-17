@@ -97,7 +97,7 @@ def train_model(model, train_loader, num_epochs=3):
 <img width="552" height="199" alt="image" src="https://github.com/user-attachments/assets/a16ed7e4-b322-40a8-ba91-75edddac5b3e" />
 
 ### Confusion Matrix
-<img width="1484" height="868" alt="Screenshot 2026-02-15 224219" src="https://github.com/user-attachments/assets/b28ebb64-9bec-4c74-b6fb-84102edb5bdb" />
+<img width="817" height="690" alt="image" src="https://github.com/user-attachments/assets/7e6abfb2-83a6-428a-8237-84c8d34be2b3" />
 
 ### Classification Report
 <img width="924" height="435" alt="Screenshot 2026-02-15 224229" src="https://github.com/user-attachments/assets/818d8395-421d-431f-9607-252cd28cb93c" />
