@@ -4,13 +4,26 @@ To develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-Handwritten digit recognition is a fundamental problem in computer vision with applications in postal mail sorting, bank check processing, and digital form recognition.
-We use the MNIST dataset, which contains:
+The objective of this project is to develop a Convolutional Neural Network (CNN) that can accurately classify different types of clothing items from grayscale images.
 
-60,000 training images
+We use the Fashion MNIST dataset, which is a more challenging alternative to the traditional MNIST dataset. It consists of images belonging to 10 different fashion categories.
 
-10,000 testing images
-Each image is grayscale, size 28 × 28 pixels, representing digits 0–9.
+#### Dataset Details:
+
+
+Total Training Images: 60,000
+
+
+Total Testing Images: 10,000
+
+
+Image Size: 28 × 28 pixels
+
+
+Image Type: Grayscale
+
+
+Number of Classes: 10
 
 ## Neural Network Model
 
